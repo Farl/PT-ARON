@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PTCharacter : MonoBehaviour {
-	public Rigidbody rigidbody;
+	public new Rigidbody rigidbody;
 	public PTController controller;
 	public Animator animator;
 	public PTCharacterAttribute attribute;

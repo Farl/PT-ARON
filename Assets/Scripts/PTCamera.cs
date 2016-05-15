@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PTCamera : MonoBehaviour {
 	public static PTCamera main;
-	public Camera camera;
+	public new Camera camera;
 
 	public Vector3 followAngle;
 	public float followDist;
